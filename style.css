@@ -38,7 +38,7 @@ ul{
 }
 
 .header__top_background{
-    padding: 10px 0px;
+    padding: 8px 0px;
     background: #F8F8F8;
     margin-bottom: 34px;
 }
@@ -61,7 +61,7 @@ ul{
 }
 
 .top__city_img{
-    margin-right: 8px;
+    margin-right: 9px;
     width: 100%;
     max-width: 20px;
 }
@@ -103,7 +103,7 @@ ul{
 }
 
 .header__link_active{
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 .header__top_right{
@@ -118,6 +118,7 @@ ul{
     font-size: 12px;
     line-height: 100%;
     color: #696969;
+    margin-right: 3px;
 }
 
 .header__top_right-text{
@@ -138,8 +139,9 @@ ul{
 .header__logo{
     width: 100%;
     max-width: 136px;
-    height: 100%;
     margin-right: 56px;
+    line-height: 100%;
+    cursor: pointer;
 }
 
 .header__input_wrapper{
@@ -244,7 +246,7 @@ width: 147px;
 }
 
 .input__item_title-first{
-    margin-right: 15px;
+    margin-right: 16px;
 }
 
 .input__item_title-third{
@@ -288,7 +290,7 @@ width: 147px;
     width: 136px;
     background: #E0001B;
     padding: 16px 21px 16px 16px;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 3px 0px 0px 3px;
 }
 
 .menu__nav_img{
