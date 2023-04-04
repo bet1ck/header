@@ -85,7 +85,7 @@ ul{
     margin-right: 24px;
 }
 
-.header__top_item:last-child{
+.header__top_item-last{
     margin-right: 0px;
 }
 
@@ -129,7 +129,6 @@ ul{
     color: #696969;
 }
 
-
 .header__input{
     display: flex;
     align-items: center;
@@ -162,6 +161,7 @@ ul{
     width: 412px;
     border: 1px solid #D5D5D5;
     border-radius: 3px;
+    outline: none;
 }
 
 .header__input_block{
@@ -188,6 +188,7 @@ ul{
 .header__input_item{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .header__input_item:hover{
@@ -204,7 +205,7 @@ width: 182px;
 }
 
 .header__input_item-second{
-width: 141px;
+    width: 141px;
     padding-bottom: 13px;
     padding-top: 11px;
     padding-right: 17px;
@@ -212,7 +213,7 @@ width: 141px;
 }
 
 .header__input_item-third{
-width: 147px;
+    width: 147px;
     padding-bottom: 13px;
     padding-top: 11px;
     padding-left: 17px;
@@ -254,17 +255,13 @@ width: 147px;
 }
 
 .input__item_link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 17px;
     height: 17px;
     background: #E0001B; 
     border-radius: 50%;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-.input__item_text{
-    display: block;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -299,12 +296,13 @@ width: 147px;
     margin-right: 16px;
 }
 
-.menu__nav_item{
+.header-menu__nav_item{
     padding: 16px 17px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
-.menu__nav_item:hover {
+.header-menu__nav_item:hover {
     background-color: #f7f7f5;
 }
 
